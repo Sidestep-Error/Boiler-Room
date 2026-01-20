@@ -1,0 +1,11 @@
+{
+  "output_dir": "C:\\Users\\ÄGARE\\Documents\\Chas\\Kurs 4 - Molnsäkerhet och DevSecOps\\Boilerroom\\output",
+  "last_team": "Grupp 7",
+  "github": {
+    "repo_url": "https://github.com/Sidestep-Error/Boiler-Room.git",
+    "local_repos_base": "~/dev",
+    "repo_subdir": "protokoll",
+    "default_branch": "protokoll-upload",
+    "commit_prefix": "Lägg till protokoll"
+  }
+}
