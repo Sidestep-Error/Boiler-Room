@@ -61,13 +61,13 @@ def create_word_doc(
     nasta_steg: str,
     output_dir: Path | None = None,
 ) -> Path:
-    output_dir = output_dir or Path.cwd()
+    output_dir = output_dir or Path("Protokoll")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     doc = Document()
 
     # Title
-    title = doc.add_paragraph("Standup / Workshop-protokoll")
+    title = doc.add_paragraph("Workshop-protokoll")
     title.runs[0].bold = True
     title.runs[0].font.size = Pt(16)
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
